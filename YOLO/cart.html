@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="asset/cart.css">
+</head>
+<body>
+    <div class="product-page">
+        <div class="product-details">
+            <img src="img/main-product.png" alt="Main Product Image">
+            <div class="product-info">
+                <h1>Denim Jacket</h1>
+                <p>$39.00 <span class="old-price">$50.00</span></p>
+                <button id="add-to-cart" class="add-to-cart-btn">Add to cart</button>
+            </div>
+        </div>
+    </div>
+    
+    <div id="cart-modal" class="cart-modal">
+        <div class="cart-content">
+            <span class="close-btn">&times;</span>
+            <h2>Shopping Cart</h2>
+            <p>Buy $122.35 More And Get Free Shipping</p>
+            <div class="cart-item">
+                <img src="img/3.png" alt="Product Image">
+                <div class="item-details">
+                    <h4>Denim Jacket</h4>
+                    <p>Color: Red</p>
+                    <p>$14.80</p>
+                    <p>Quantity: 1</p>
+                </div>
+            </div>
+            <a href="cart.html"><button class="checkout-btn">Checkout</button></a>
+        </div>
+    </div>
+
+    <script src="asset/cart.js"></script>
+</body>
+</html>

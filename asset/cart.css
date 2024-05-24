@@ -1,0 +1,300 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 80px;
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 calc((100vw - 1300px) / 2);
+    margin-bottom: 0;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+}
+.nav-items a{
+    text-decoration: none;
+    padding: 0 2rem;
+    color: black;
+    font-size: 1.2rem
+}
+.icons a{
+    padding: 0 0.6rem;
+}
+nav a:hover{
+    color: rgb(129, 234, 253);
+}
+
+.cart{
+    padding-top: 2rem;
+    height: auto;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1.2rem;
+}
+.header h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.item{
+    padding-bottom: 1rem;
+}
+.item ul{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-self: center;
+    gap: 16rem;
+    padding-left: 18rem;
+}
+.item ul li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.product{
+    padding-left: 18rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.products img{
+    width: 120px;
+    height: 140px;
+}
+.products{
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1rem;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+.cart hr{
+    width: 64%;
+    color: #777;
+    position: relative;
+    left: 18rem;
+}
+.products .details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.details p{
+    color: #777;
+}
+.bl{
+    color: #777;
+    border-bottom: 1px solid #777; 
+    padding-bottom: 1px;
+    width: 3.4rem;
+}
+.quantity input{
+    width: 50px;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-right: 10px;
+    border: 1px solid rgb(129, 128, 128);
+}
+.price{
+    padding-left: 4.2rem;
+    margin-top: -7.5rem;
+}
+.quantity{
+    padding-left: 15.8rem;
+    margin-top: -6.8rem;
+}
+.total{
+    padding-left: 16.7rem;
+    margin-top: -7.5rem;
+}
+
+
+.tick{
+    padding-left: 54rem;
+    padding-top: 1rem;
+}
+.tick .ticks{
+    display: flex;
+    gap: 0.5rem;
+    color: #777;
+}
+.ticks input{
+    border: 9px solid rgb(0, 0, 0);
+    width: 16px;
+}
+.bold{
+    font-weight: bold;
+    color: black;
+    font-size: 17px;
+}
+.tick hr{
+    width: 60.5%;
+    color: #777;
+    position: relative;
+    left: 0rem;
+    margin-top: 1rem;
+}
+.subtotal{
+    padding-left: 54rem;
+    display: flex;
+    margin-top: 1rem;
+    font-size: 22px;
+    gap: 17.5rem;
+}
+.check{
+    padding-left: 53.9rem;
+    margin-top: 1.5rem;
+}
+.checkout button{
+    width: 25.5rem;
+    background: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 7px;
+    border: black;
+    font-size: 1rem;
+}
+.check button:hover{
+    background: rgb(129, 234, 253);
+    color: black;
+}
+.checkout p{
+    padding-left: 10.7rem;
+    padding-top: 0.5rem;
+    font-weight: bold;
+}
+.check hr{
+    width: 10.7%;
+    color: #777;
+    position: relative;
+    left: 10.7rem;
+    margin-top: 0rem;
+}
+
+
+
+.sub{
+    height: 100vh;
+    padding-top: 2.4rem;
+}
+.subscribe-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    position: relative;
+}
+
+.model-left, .model-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.model-left img, .model-right img {
+    max-width: 100%;
+    height: auto;
+}
+
+.subscribe-content {
+    flex: 2;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+.subscribe-content h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.subscribe-content p {
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.email-box {
+    display: inline-block;
+    padding: 15px 30px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    margin-bottom: 20px;
+}
+
+.email-box h6 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.subscribe-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.subscribe-btn:hover {
+    background-color: rgb(129, 234, 253);
+    color: #000;
+}
+
+
+.footer{
+    padding-top: 10rem;
+    height: 38vh;
+}
+.footer hr {
+    border: none;
+    border-top: 1px solid #f4f2f2;
+    margin: 10px 0;
+    padding-bottom: 2rem;
+}
+.itema{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 9rem;
+    padding-right: 6rem;
+}
+.itema h1{
+    padding-left: 5rem;
+    font-style: italic;
+}
+.items a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    padding: 3rem 1rem;
+}
+.data p{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3.5rem;
+    padding-bottom: 2rem;
+}

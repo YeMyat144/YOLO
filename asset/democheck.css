@@ -1,0 +1,320 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 80px;
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
+    padding-left: 8rem;
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+}
+.nav-items{
+    padding-left: 7rem;
+}
+.icons{
+    padding-right: 7rem;
+    display: flex;
+    flex-direction: row;
+}
+.icons a {
+    margin-left: -1rem; 
+}
+
+.icons a:first-child {
+    margin-left: 0; 
+}
+
+nav a{
+    text-decoration: none;
+    padding: 0 1.5rem;
+    color: black;
+    font-size: 1.2rem
+}
+nav a:hover{
+    color: rgb(129, 234, 253);
+}
+
+.check .title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.container{
+    display: grid;
+    grid-template-columns: 0.7fr 0.9fr;
+    height: 60rem;
+    padding-left: 10rem;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.5rem;
+    gap: 1rem;
+}
+.contact .con{
+    display: flex;
+    justify-content: space-between;
+}
+.contact .con p{
+    font-size: 13px;
+    padding-top: 8px;
+    padding-right: 2rem;
+}
+.delivery{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.delivery .input{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.payment{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.payment .input{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+input{
+    width: 95%;
+    height: 2.5rem;
+    padding-left: 16px;
+    font-size: 13px;
+    color: #8A8A8A;
+    border: 1px solid #8A8A8A;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+.save{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+.save input{
+    width: 20px;
+}
+.save p{
+    padding-top: 0.73rem;
+    font-size: 14px;
+    color: #8A8A8A;
+}
+.pay-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+.pay-btn button{
+    width: 95%;
+    height: 3rem;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+.pay-btn button:hover{
+    background: rgb(129, 234, 253);
+    color: black;
+}
+.pay-btn p{
+    font-size: 13px;
+    color: #484848;
+    padding-top: 10px;
+    padding-left: 10rem;
+}
+
+
+.right{
+    background: #F5F5F5;
+    padding-left: 3.5rem;
+    padding-top: 2.5rem;
+    height: 40rem;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.item img{
+    width: 137px;
+    height: 137px;
+}
+.item-info{
+    padding-top: 2rem;
+}
+.color{
+    padding-top: 0.6rem;
+    display: flex;
+    flex-direction: row;
+    gap: 14.5rem;
+}
+.code{
+    display: flex;
+    padding-top: 1rem;
+    gap: 0.5rem;
+}
+.code input{
+    width: 45%;
+    height: 3rem;
+    border-radius: 3px;
+    border: none;
+}
+.code button{
+    width: 22%;
+    border-radius: 8px;
+    background: black;
+    color: white;
+}
+.code button:hover{
+    background: rgb(129, 234, 253);
+    color: black;
+    border: none;
+}
+.demo-total{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+.subtotal{
+    display: flex;
+    gap: 23.5rem;
+}
+.shipping{
+    display: flex;
+    gap: 23.5rem;
+}
+.Total{
+    display: flex;
+    gap: 24.6rem;
+}
+.sub{
+    height: 85vh;
+    padding-top: 1rem;
+}
+.subscribe-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    position: relative;
+}
+
+.model-left, .model-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.model-left img, .model-right img {
+    max-width: 100%;
+    height: auto;
+}
+
+.subscribe-content {
+    flex: 2;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+.subscribe-content h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.subscribe-content p {
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.email-box {
+    display: inline-block;
+    padding: 15px 30px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    margin-bottom: 20px;
+}
+
+.email-box h6 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.subscribe-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.subscribe-btn:hover {
+    background-color: rgb(129, 234, 253);
+    color: #000;
+}
+
+
+.footer{
+    padding-top: 15rem;
+    height: 38vh;
+}
+.footer hr {
+    border: none;
+    border-top: 1px solid #f4f2f2; /* Customize the border color and width */
+    margin: 10px 0;
+    padding-bottom: 2rem;
+}
+.itema{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 9rem;
+    padding-right: 6rem;
+}
+.itema h1{
+    padding-left: 5rem;
+    font-style: italic;
+}
+.items a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    padding: 3rem 1rem;
+}
+.data p{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3.5rem;
+    padding-bottom: 2rem;
+}
